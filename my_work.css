@@ -1,0 +1,59 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-image: url("bg_work.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Ubuntu', Arial, sans-serif;
+}
+.projects {
+	margin-top: 30px;
+}
+.row {
+	text-align: center;
+}
+.my_work {
+	margin-top: 40px;
+}
+h4 {
+	
+	border: 1px solid none;
+	border-radius: 3px;
+	background-color: #4286f4;
+	color: white;
+	padding: 5px 0 5px 0;
+
+}
+
+
+/* navigation */
+
+.navbar {
+
+	background-color: #333333 !important;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-weight: 700;
+}
+
+.navbar a {
+	color: white !important;
+	opacity: 0.7;
+}
+.navbar a:hover {
+	opacity: 1;
+	background-color: #111111 !important;
+}
+
+/* MAIN CONTENT */
+
+h2 {
+	margin: 20px 0;
+}
+
+h2, p {
+	color: white;
+}
