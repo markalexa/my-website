@@ -1,3 +1,3 @@
 # MY AWESOME WEBSITE
 
-i love coding
+edited readme file on update-readme branch
