@@ -7,88 +7,84 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <title>Mark Alexa: Home</title>
-    <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-    <link href="index.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" 
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet">
     <link href="animate.min.css" type="text/css" rel="stylesheet">
+    <link href="index.css" type="text/css" rel="stylesheet">
   </head>
   <body>
   
 <!-- NAVIGATION BAR -->
-
-<div id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>			
-			</button>
-			<a href="#" class="navbar-brand">Mark Alexa</a>
-	</div>
-	<div class="navbar-collapse collapse">
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="index.html" alt="home">Home</a></li>
-			<li><a href="pricing.html" alt="pricing">Pricing</a></li>
-			<li><a href="my_work.html" alt="my work">My Work</a></li>
-			
-		</ul>	
-	</div>
-</div> 
-</div>
+<div class="wrapper">
+  <nav id="header" class="navbar navbar-fixed-top">
+            <div id="header-container" class="container navbar-container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="my_work.html">My Work</a></li>
+                    </ul>
+                </div><!-- /.nav-collapse -->
+            </div><!-- /.container -->
+        </nav><!-- /.navbar -->
+        
     
-    <!-- end of navigation bar -->
-    
-    <!-- Header -->
-    
-<div id="header" class="header">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 col-md-6 wow bounceInDown" data-wow-delay="15">
-				<h2>Looking for ways to improve your online presence ?</h2><br>
-				<h2>Or create one from a scratch ?</h2>
+  
+<div class="jumbotron">
+	<div class="row">
+			<div class="col-lg-5">
 				
-				<a id="margin" class="btn btn-lg btn-primary" href="my_work.html" alt="check out my work">Check out my work</a>
-				<a class="btn btn-lg btn-success" href="http://linkedin.com/in/mark-alexa-074326144" target="_blank" alt="find me on Linkedin">Find me on LinkedIn</a>
+				
 			</div>
-			<div id="padding" class="col-lg-6 col-md-6">
-				<img src="bg.jpg" id="img" height="400" width="auto" alt="">			
+			<div class="col-lg-7">
+				<p id="mainHeading"><span style="opacity:0.5;">My name's </span>Mark
+				 <span style="opacity:0.5;">and I'm a</span><span style="margin-left:400px;"> developer</span> <span style="opacity:0.5;">...</span></p>			
 			</div>
 		</div>
+	
 </div>
 </div>
 
-<!-- End of header -->
-
-<!-- Services -->
 
 <div class="services">
 	<div class="container">
-		<h2>Services</h2>
+		<h2>I'm all about :</h2>
 			
 			<div class="row">
 				<div class="col-lg-6 col-md-6 wow lightSpeedIn">
 						<i class="fa fa-desktop" aria-hidden="true"></i>
-						<h4>Web design</h4>
-						<p>Whether you need a personal website to show off your hobby to the world or website that is focused on your
-							business, I can
-							help you to achieve it hassle-free.</p>
+						<h4>Web Development</h4>
+						<p>Computers, web development and software fascinates me every day.<br>
+						I can talk about any of these topics for hours and don't get tired.</p>
 				</div>	
 				<div class="col-lg-6 col-md-6 wow lightSpeedIn">
 					<i class="fa fa-database" aria-hidden="true"></i>
 					<h4>Databases</h4>
-					<p>Do you need a website that stores visitor's feedback or query with<br> ability to react to it ?</p>		
+					<p>Databases are amazing tool which allows us store various kinds of data and work with it.
+					Database is very useful technology with very bright future.</p>		
 				</div>
-						
 			</div>
 	</div>
-
 </div>
 
 	<script src="wow.min.js"></script>
    <script>new WOW().init();</script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
