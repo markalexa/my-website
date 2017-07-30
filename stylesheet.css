@@ -48,20 +48,19 @@ h2, h4 {
 
 p {
 	
-	line-height: 21px;
+	line-height: 25px;
 	
 }
 #mainHeading {
-	margin-top:100px;
-	margin-bottom:40px;
+	margin-top:120px;
 	font-size: 40px;
 	font-family: 'Orbitron', sans-serif;
-	line-height: 45px;
 	
 }
 
 
 /* navigation */
+.underline {border-bottom: 1px solid #337ab7;}
 
 
 ul li a:hover {color:#0047b3;font-weight: bold;background-color: transparent !important;}
@@ -80,8 +79,8 @@ ul {margin-left: 40px;}
 .navbar-container.fixed-theme {
     padding: 0;
 }
-#header {marginf-bottom: 0;}
-#navbar ul li a {font-size: 18px;}
+#header {marging-bottom: 0;}
+#navbar ul li a {font-size: 18px;padding-bottom: 3px;padding-left: 0;padding-right: 0;margin-right: 10px;}
 
 .navbar-container.fixed-theme,
 .navbar.navbar-fixed-top.fixed-theme,

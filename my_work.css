@@ -38,6 +38,8 @@ h4 {
 	width: 100%;
 	background-color: #333333;
 }
+.underline {border-bottom: 1px solid #337ab7;}
+#navbar ul li a {font-size: 18px;padding-bottom: 3px;padding-left: 0;padding-right: 0;margin-right: 10px;}
 ul li {
 	margin-right: 15px;
 	position: relative;

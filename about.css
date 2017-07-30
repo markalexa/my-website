@@ -1,0 +1,63 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+p {
+	color:black;
+	line-height:30px;
+	font-family:Ubuntu,Sans-Serif;
+	font-size:25px;
+	text-align:block;
+	padding: 30px;
+}
+
+#brand {
+	font-size: 25px;
+	font-family: 'Orbitron',Sans-Serif;
+}
+.jumbotron {background-color: transparent;}
+.col-lg-6 {
+	margin-top:120px;
+	margin-bottom: 50px;
+	border: 1px solid black;
+	border-radius: 7px;
+	background-color: #eaeeef !important;
+	
+}
+
+body {
+	background-image: url("aboutbg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+#header {
+	width: 100%;
+	background-color: #333333;
+}
+ul li {
+	margin-right: 15px;
+	position: relative;
+	display: block;
+}
+#brand {font-size: 25px;font-family: 'Orbitron',Sans-Serif;}
+#brand:hover {color: #67bfef;}
+#header {
+	width: 100%;
+	background-color: #333333;
+}
+.underline {border-bottom: 1px solid #337ab7;}
+#navbar ul li a {font-size: 18px;padding-left: 0;padding-right: 0;padding-bottom: 3px; margin-right: 10px;}
+.navbar-nav {float: right;}
+ul li {
+	margin-right: 15px;
+	position: relative;
+	display: block;
+}
+#navbar ul li a {font-size: 16px;}
+#navbar ul li a:hover {
+	color: #67bfef;
+	background-color: transparent !important;
+}
