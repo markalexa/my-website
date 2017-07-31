@@ -18,7 +18,7 @@ body {
 	text-align: center;
 }
 .my_work {
-	margin-top: 40px;
+	margin-top: 80px;
 }
 h4 {
 	font-weight: normal !important;
@@ -50,6 +50,7 @@ ul li {
 	color: #67bfef;
 	background-color: transparent !important;
 }
+.navbar navbar-default {margin-bottom: 0;}
 
 /* MAIN CONTENT */
 
@@ -59,4 +60,8 @@ h2 {
 
 h2, p {
 	color: white;
+}
+
+@media (max-width: 468px) {
+	#my_work {margin-top: 80px;margin-bottom: 30px;}
 }

@@ -11,10 +11,6 @@ p {
 	padding: 30px;
 }
 
-#brand {
-	font-size: 25px;
-	font-family: 'Orbitron',Sans-Serif;
-}
 .jumbotron {background-color: transparent;}
 .col-lg-6 {
 	margin-top:120px;
@@ -33,31 +29,34 @@ body {
 	font-family: 'Ubuntu', Arial, sans-serif;
 }
 
-#header {
-	width: 100%;
-	background-color: #333333;
+.navbar-brand li {margin-right: 3px;}
+body {
+	
+	font-family: 'Ubuntu', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialised !important;
+	background-color: #ece5e5;
 }
-ul li {
-	margin-right: 15px;
-	position: relative;
-	display: block;
+.navbar {margin-bottom: 0;background-color: #f9f9f9;}
+.navbar ul li {color: #428bca;}
+ul li {margin-right: 25px;}
+img {
+	border-radius: 10px;
+	margin-top: 30px;
+	margin-right: 10px;
 }
-#brand {font-size: 25px;font-family: 'Orbitron',Sans-Serif;}
-#brand:hover {color: #67bfef;}
-#header {
-	width: 100%;
-	background-color: #333333;
+li {
+	list-style-type: none;
+	display: inline-block;
 }
-.underline {border-bottom: 1px solid #337ab7;}
-#navbar ul li a {font-size: 18px;padding-left: 0;padding-right: 0;padding-bottom: 3px; margin-right: 10px;}
-.navbar-nav {float: right;}
-ul li {
-	margin-right: 15px;
-	position: relative;
-	display: block;
+a {
+	font-size: 17px;
+	text-decoration: none;
+	transition: all 500ms ease-in-out;
 }
-#navbar ul li a {font-size: 16px;}
-#navbar ul li a:hover {
-	color: #67bfef;
-	background-color: transparent !important;
+
+a:hover, a:active {
+	text-decoration: none;
+	color: #003380;
 }
+.navbar navbar-default {margin-bottom: 0;}
