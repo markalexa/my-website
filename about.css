@@ -49,6 +49,11 @@ li {
 	list-style-type: none;
 	display: inline-block;
 }
+#hover {color: #428bca !important;}
+#hover:hover {
+	color: #c51cce;
+	font-weight: bold;
+}
 a {
 	font-size: 17px;
 	text-decoration: none;

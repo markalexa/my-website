@@ -45,6 +45,11 @@ ul li {
 	position: relative;
 	display: block;
 }
+#hover {color: #428bca !important;}
+#hover:hover {
+	color: #c51cce;
+	font-weight: bold;
+}
 #navbar ul li a {font-size: 16px;}
 #navbar ul li a:hover {
 	color: #67bfef;
