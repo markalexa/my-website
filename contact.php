@@ -10,8 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
 	 <title>Mark Alexa: Contact</title>
+	 <link rel="stylesheet" href="stylesheet.css" type="text/css">
     <link rel="stylesheet" href="contact.css" type="text/css">
-    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    
   
   </head>
   <body>
@@ -43,7 +44,7 @@
        	 <li><a id="hover" href="index.html">Home</a></li>
           <li><a id="hover" href="about.html">Who I am</a></li>
           <li><a id="hover" href="my_work.html">My Work</a></li>
-        
+          <li><a id="hover" href="contact.php">Contact Me</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -53,6 +54,8 @@
 	<div class="container">  
   <div class="row">
   	<div class="col-md-4">
+  	<?php echo $successMsg; ?>
+  	<h2 id="touch">Let's get in touch !</h2>
     <form method="post" action="">
 		<div class="form-group">
 			<label for="fullName">Full Name</label>
@@ -64,8 +67,9 @@
 			<label for="message">Message</label>
 			<textarea cols="3" rows="4" name="message" class="form-control" required></textarea>
 			<button type="submit" class="btn btn-primary btn-outline btn-lg" name="submit">Submit</button>
-		
+			
 		</div>    
+		
     </form>
     
 	</div>
@@ -75,7 +79,7 @@
 	<div class="col-md-4">
 		 <div  id="canvas-wrap">
 		 <canvas id="non-fadingCanvas" width="500" height="250"></canvas>
-		 <canvas id="fadingCanvas" style="top:50px;" width="500" height="250"></canvas>
+		 <canvas id="fadingCanvas" style="top:130px;" width="500" height="250"></canvas>
     	 <div id="overlay"></div>
 		 </div>
 	</div>
@@ -86,6 +90,6 @@
    <script src="bootstrap/js/bootstrap.min.js"></script>
    <script type="text/javascript" src="getInTouch.js"></script>
    <script type="text/javascript" src="messageSent.js"></script>
-   <?php if($successMsg == true) { echo "<script>messageSent();</script>"; } ?>
+   <?php if($successMsg != "") { echo "<script>messageSent();</script>"; } ?>
   </body>
 </html>

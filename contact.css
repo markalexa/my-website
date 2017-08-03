@@ -8,6 +8,12 @@
 	height: 350px !important;
 	margin-bottom: 0;
 }
+#successMsg {
+	display: none;
+}
+#touch {
+	display: none;
+}
 input {
 	margin-bottom: 8px;
 }
@@ -54,7 +60,6 @@ body {
 	background-color: #ece5e5;
 }
 
-.container form button {text-align: center;}
 .btn-primary.btn-outline {
     color: #428bca;
 }
@@ -89,4 +94,14 @@ body {
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
     color: #fff;
+}
+
+@media (max-width: 868px) {
+	.jumbotron {margin-top: 60px !important;}
+	#touch {display: block;color: #1ba8c1;margin-bottom: 40px;}
+	.jumbotron img, canvas {display: none;}
+	input {margin-bottom: 15px;}
+	.container {width: 300px;}
+	.col-md-4:nth-child(3) {display: none;}
+	#successMsg {display: block;margin-top: 10px;}
 }

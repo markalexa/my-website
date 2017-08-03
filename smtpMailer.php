@@ -56,7 +56,8 @@
     		echo 'Message could not be sent.';
     		echo 'Mailer Error: ' . $mail->ErrorInfo;
 		} else {
-   		$successMsg = true;
+   		$successMsg = '<div id="successMsg" class="alert alert-success" role="alert">
+  			<strong>Great ! </strong> Message sent. I\'ll get back to you in a bit.</div>';
 		}
 } else {
 	exit;
