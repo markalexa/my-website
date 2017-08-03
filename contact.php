@@ -10,8 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
 	 <title>Mark Alexa: Contact</title>
-	 <link rel="stylesheet" href="stylesheet.css" type="text/css">
-    <link rel="stylesheet" href="contact.css" type="text/css">
+	 <link rel="stylesheet" href="contact.css" type="text/css">
     
   
   </head>
@@ -66,17 +65,17 @@
 			<input type="text" name="subject" class="form-control" required>
 			<label for="message">Message</label>
 			<textarea cols="3" rows="4" name="message" class="form-control" required></textarea>
-			<button type="submit" class="btn btn-primary btn-outline btn-lg" name="submit">Submit</button>
+			<button type="submit" id="submit" class="btn btn-primary btn-outline btn-lg" name="submit">Submit</button>
 			
 		</div>    
 		
     </form>
     
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4" id="remove">
 		 <img src="bgcontact.png" alt="">
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4" id="remove">
 		 <div  id="canvas-wrap">
 		 <canvas id="non-fadingCanvas" width="500" height="250"></canvas>
 		 <canvas id="fadingCanvas" style="top:130px;" width="500" height="250"></canvas>
@@ -88,6 +87,13 @@
    </div>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
    <script src="bootstrap/js/bootstrap.min.js"></script>
+   <script type="text/javascript">
+   	var windowWidth = $(window).width();
+   	if (windowWidth < 800) {
+   		$("#remove").remove();
+   		$("#canvas-wrap").remove();
+   	}
+   </script>
    <script type="text/javascript" src="getInTouch.js"></script>
    <script type="text/javascript" src="messageSent.js"></script>
    <?php if($successMsg != "") { echo "<script>messageSent();</script>"; } ?>

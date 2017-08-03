@@ -14,6 +14,7 @@
 #touch {
 	display: none;
 }
+
 input {
 	margin-bottom: 8px;
 }
@@ -97,12 +98,18 @@ body {
 }
 
 @media (max-width: 868px) {
+	.col-md-4 {text-align: center;}
 	.jumbotron {margin-top: 60px !important;}
-	#touch {margin-right: 40px;}
 	#touch {display: block;color: #1ba8c1;margin-bottom: 40px;}
-	.jumbotron img, canvas {display: none;}
 	input {margin-bottom: 15px;}
 	.container {width: 300px;}
-	.col-md-4:nth-child(3) {display: none;}
 	#successMsg {display: block;margin-top: 10px;}
+	#overlay {display: none;}
+	#submit {width: 100%;}
+	ul li {
+	list-style-type: none;
+	font-family: 'Ubuntu', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	}
 }
