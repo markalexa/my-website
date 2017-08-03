@@ -10,7 +10,9 @@ p {
 	text-align:block;
 	padding: 30px;
 }
-
+html {
+	overflow-x: hidden;
+}
 .jumbotron {background-color: transparent;}
 .col-lg-6 {
 	margin-top:120px;
