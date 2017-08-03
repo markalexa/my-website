@@ -98,6 +98,7 @@ body {
 
 @media (max-width: 868px) {
 	.jumbotron {margin-top: 60px !important;}
+	#touch {margin-right: 40px;}
 	#touch {display: block;color: #1ba8c1;margin-bottom: 40px;}
 	.jumbotron img, canvas {display: none;}
 	input {margin-bottom: 15px;}
