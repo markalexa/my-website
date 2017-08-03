@@ -11,6 +11,9 @@
 #successMsg {
 	display: none;
 }
+html {
+	overflow-x: hidden;
+}
 #touch {
 	display: none;
 }
@@ -27,7 +30,14 @@ canvas {
 	margin-left: -190px;
 	padding-left: 0;
 }
+a {
+	font-size: 17px;
+	text-decoration: none;
 
+}
+ul li {
+	list-style-type: none;
+}
 .jumbotron img {
 	position: relative;
 	width: 95%;
@@ -96,6 +106,9 @@ body {
 .btn-danger.btn-outline:hover {
     color: #fff;
 }
+@media (max-width: 1200px) {
+	#remove {display: none;}
+}
 
 @media (max-width: 868px) {
 	.col-md-4 {text-align: center;}
@@ -109,7 +122,6 @@ body {
 	ul li {
 	list-style-type: none;
 	font-family: 'Ubuntu', Arial, sans-serif;
-	text-transform: uppercase;
-	font-weight: 700;
+	
 	}
 }
