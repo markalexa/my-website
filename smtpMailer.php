@@ -60,7 +60,7 @@
   			<strong>Great ! </strong> Message sent. I\'ll get back to you in a bit.</div>';
 		}
 } else {
-	exit;
+	exit();
 }
 }
 

@@ -29,9 +29,9 @@
       </button>
       <ul class="navbar-brand" href="#">
             <li class="slideDown" data-scroll="offset(0,-2px)">Find me on <a href="https://linkedin.com/in/mark-alexa-074326144" target="_blank" alt="find me on linkedin">
-            <img style="padding:0;margin:0;" width="30px" height="auto" src="in.png"></a>
+            <img id="in" style="padding:0;margin:0;" width="30px" height="auto" src="in.png"></a>
             <a href="https://google.com/+MarkAlexa" target="_blank" alt="find me on google plus">
-            <img style="padding:0;margin:0;" width="32px" height="auto" src="gplus.png"></a></li>
+            <img id="gplus" style="padding:0;margin:0;" width="32px" height="auto" src="gplus.png"></a></li>
             
       </ul>
     </div>
@@ -88,6 +88,7 @@
    
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
    <script src="bootstrap/js/bootstrap.min.js"></script>
+   <script src="expanding.js" type="text/javascript"></script>
    <script type="text/javascript">
    	var windowWidth = $(window).width();
    	if (windowWidth < 800) {
