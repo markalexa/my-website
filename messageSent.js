@@ -28,7 +28,7 @@ function messageSent() {
     	context.strokeStyle = "#21a527";
     	context.stroke();
     	context.fillStyle = "#21a527";
-    	context.font = "19px Verdana";
+    	context.font = "15px Verdana";
     	context.strokeText("Great ! Message has been sent.",80,110);
     	context.strokeText("I'll get back to you as soon as I can.",80,130);
     	context.strokeText("Have a good one !",80,150);
