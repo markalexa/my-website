@@ -3,6 +3,10 @@
 	margin: 0;
 }
 
+html {
+	overflow-y: scroll;
+}
+
 body {
 	background-image: url("bg_work.jpg");
 	background-position: center center;
@@ -10,6 +14,15 @@ body {
 	background-size: cover;
 	font-family: 'Ubuntu', Arial, sans-serif;
 }
+
+.navbar {
+	border-radius: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
 .projects {
 	margin-top: 30px;
 }
@@ -17,9 +30,11 @@ body {
 .row {
 	text-align: center;
 }
+
 .my_work {
 	margin-top: 80px;
 }
+
 h4 {
 	font-weight: normal !important;
 	border: 1px solid none;
@@ -29,33 +44,17 @@ h4 {
 	padding: 5px 0 5px 0;
 
 }
-#brand {font-size: 25px;font-family: 'Orbitron',Sans-Serif;}
 
+.navbar-brand {
+	height: 40px;
+	padding-top: 8px;
+}
 
-/* navigation */
+a {
+	font-size: 14px;
+	text-decoration: none;
 
-#header {
-	width: 100%;
-	background-color: #333333;
 }
-.underline {border-bottom: 1px solid #337ab7;}
-#navbar ul li a {font-size: 18px;padding-bottom: 3px;padding-left: 0;padding-right: 0;margin-right: 10px;}
-ul li {
-	margin-right: 15px;
-	position: relative;
-	display: block;
-}
-#hover {color: #428bca !important;}
-#hover:hover {
-	color: #c51cce;
-	font-weight: bold;
-}
-#navbar ul li a {font-size: 16px;}
-#navbar ul li a:hover {
-	color: #67bfef;
-	background-color: transparent !important;
-}
-.navbar navbar-default {margin-bottom: 0;}
 
 /* MAIN CONTENT */
 
@@ -68,5 +67,5 @@ h2, p {
 }
 
 @media (max-width: 468px) {
-	#my_work {margin-top: 80px;margin-bottom: 30px;}
+	#my_work {margin-top: 40px;margin-bottom: 30px;}
 }

@@ -2,18 +2,26 @@
 	padding: 0;
 	margin: 0;
 }
+
+.navbar {
+	border-radius: 0;
+}
+
 .jumbotron {
-	margin-top: 200px !important;
+	margin-top: 100px !important;
 	background: transparent !important;
 	height: 350px !important;
 	margin-bottom: 0;
 }
+
 #successMsg {
 	display: none;
 }
+
 html {
 	overflow-x: hidden;
 }
+
 #touch {
 	display: none;
 }
@@ -21,6 +29,7 @@ html {
 input {
 	margin-bottom: 8px;
 }
+
 textarea {
 	margin-bottom: 8px;
 }
@@ -30,14 +39,18 @@ canvas {
 	margin-left: -190px;
 	padding-left: 0;
 }
+
+.navbar-brand {
+	height: 40px;
+	padding-top: 8px;
+}
+
 a {
-	font-size: 17px;
+	font-size: 14px;
 	text-decoration: none;
 
 }
-ul li {
-	list-style-type: none;
-}
+
 .jumbotron img {
 	position: relative;
 	width: 95%;
@@ -45,16 +58,20 @@ ul li {
 	margin-left: -140px;
 	margin-top: -155px;
 }
+
 form {
 	position: relative;
 }
+
 label {
 	color: black;
 }
+
 button {
 	margin-top: 20px !important;
 	margin-left: 0 !important;
 }
+
 /*Bootstrap button outline override*/
 .btn-outline {
     background-color: transparent;
@@ -62,7 +79,10 @@ button {
     transition: all .5s;
 }
 
-.navbar-brand li {margin-right: 3px;}
+.navbar-brand li {
+	margin-right: 3px;
+}
+
 body {
 	
 	font-family: 'Ubuntu', sans-serif;
@@ -79,12 +99,6 @@ body {
     color: #5cb85c;
 }
 
-#hover {color: #428bca !important;}
-#hover:hover {
-	color: #c51cce;
-	font-weight: bold;
-}
-
 .btn-info.btn-outline {
     color: #5bc0de;
 }
@@ -92,9 +106,29 @@ body {
 .btn-warning.btn-outline {
     color: #f0ad4e;
 }
-#overlay {margin-left: -150px;margin-top: -100px;}
-#canvas-wrap { position:relative; width:800px; height:300px }
-#canvas-wrap canvas { position:absolute; top:0; left:0; z-index:0 }
+
+#overlay {
+	margin-left: -150px;
+	margin-top: -100px;
+}
+
+#canvas-wrap {
+	position:relative;
+	width:800px;
+	height:300px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+#canvas-wrap canvas { 
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+}
+
 .btn-danger.btn-outline {
     color: #d9534f;
 }
@@ -112,7 +146,7 @@ body {
 
 @media (max-width: 868px) {
 	.col-md-4 {text-align: center;}
-	.jumbotron {margin-top: 60px !important;}
+	.jumbotron {margin-top: 10px !important;}
 	#touch {display: block;color: #1ba8c1;margin-bottom: 40px;}
 	input {margin-bottom: 15px;}
 	.container {width: 300px;}

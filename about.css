@@ -2,6 +2,7 @@
 	padding: 0;
 	margin: 0;
 }
+
 p {
 	color:black;
 	line-height:30px;
@@ -10,10 +11,19 @@ p {
 	text-align:block;
 	padding: 30px;
 }
+
+.navbar {
+	border-radius: 0;
+}
+
 html {
 	overflow-x: hidden;
 }
-.jumbotron {background-color: transparent;}
+
+.jumbotron {
+	background-color: transparent;
+}
+
 .col-lg-6 {
 	margin-top:120px;
 	margin-bottom: 50px;
@@ -31,7 +41,6 @@ body {
 	font-family: 'Ubuntu', Arial, sans-serif;
 }
 
-.navbar-brand li {margin-right: 3px;}
 body {
 	
 	font-family: 'Ubuntu', sans-serif;
@@ -39,31 +48,32 @@ body {
 	-webkit-font-smoothing: antialised !important;
 	background-color: #ece5e5;
 }
-.navbar {margin-bottom: 0;background-color: #f9f9f9;}
-.navbar ul li {color: #428bca;}
-ul li {margin-right: 25px;}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
 img {
 	border-radius: 10px;
 	margin-top: 30px;
 	margin-right: 10px;
 }
-li {
-	list-style-type: none;
-	display: inline-block;
-}
-#hover {color: #428bca !important;}
-#hover:hover {
-	color: #c51cce;
-	font-weight: bold;
-}
-a {
-	font-size: 17px;
-	text-decoration: none;
-	transition: all 500ms ease-in-out;
+
+.navbar-brand {
+	height: 40px;
+	padding-top: 8px;
 }
 
-a:hover, a:active {
+a {
+	font-size: 14px;
 	text-decoration: none;
-	color: #003380;
+
 }
-.navbar navbar-default {margin-bottom: 0;}
+
+@media (max-width: 468px) {
+	.jumbotron {margin-top: 0;padding-top: 0;margin-bottom: 30px;}
+}
